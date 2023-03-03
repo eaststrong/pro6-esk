@@ -7,7 +7,8 @@ This project is initialized with [Ant Design Pro](https://pro.ant.design). Follo
 Install `node_modules`:
 
 ```bash
-yarn
+npm i
+npm up
 ```
 
 ## Provided Scripts
@@ -19,31 +20,31 @@ Scripts provided in `package.json`. It's safe to modify or add additional script
 ### Start project
 
 ```bash
-yarn run start
+npm run start
 ```
 
 ### Build project
 
 ```bash
-yarn run build
+npm run build
 ```
 
 ### Check code style
 
 ```bash
-yarn run lint
+npm run lint
 ```
 
 You can also use script to auto fix some lint error:
 
 ```bash
-yarn run lint:fix
+npm run lint:fix
 ```
 
 ### Test code
 
 ```bash
-yarn run test
+npm run test
 ```
 
 ## More
